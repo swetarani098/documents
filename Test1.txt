@@ -1,0 +1,6 @@
+git init creates an empty Git repository. Specifically, this creates the .git directory, which the git command will recognize as a repository.
+git add adds files to the repository; in this case I added my pom.xml and my src directory.
+git commit commits changes to the repository. All I did was to add the pom.xml file and src directory. You would also use this command after modifying the contents of a file or deleting files via the git rm command.
+git remote add origin adds the specified URL as the origin server for the Git repository. As you saw in Figure 6, the origin server is created on GitHub for you and the URL is provided in the setup documentation.
+git push uploads all committed changes to the specified server. In this case I've pushed the initial commit that contains the pom.xml and src directory to the origin server, which I previously set.
+You can use Git from your IDE or from the command line; I just I happen to be a command-line junkie. Executing git help shows the most common commands, which are summarized in Listing 2.
